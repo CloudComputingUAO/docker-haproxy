@@ -1,0 +1,22 @@
+services:
+  frontend:
+    # TODO: Add frontend service
+
+  backend:
+    # TODO: Add backend service
+
+  haproxy:
+    image: haproxy:2.8
+    volumes:
+      - ./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    driver: bridge
