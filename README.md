@@ -2,8 +2,11 @@
 
 This project is a hands-on challenge designed to help you explore containerization, load balancing, and performance testing using real-world tools.
 
-![img](docs/architecture.png)
-Figure 1. Target Architecture
+<p align="center">
+  <img src="docs/architecture.png" alt="Diagram" width="400"/>
+</p>
+<p align="center">
+<em>Figure 1: Architecture diagram showing HAProxy in front of backend services</em>
 
 ---
 
