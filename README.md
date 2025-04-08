@@ -87,6 +87,14 @@ You must create all missing files from scratch as part of the challenge. (docker
   - Response Time Graph
 - Experiment with different numbers of users and request patterns.
 
+### 5. Deploy and Evaluate on Docker Swarm ⚖️
+
+- Initialize a Swarm cluster using `docker swarm init`
+- Deploy services with `docker stack deploy` and a Swarm-compatible Compose file
+- Scale backend services using `docker service scale`
+- Monitor service distribution and load balancing across replicas
+- Evaluate the system behavior under load using JMeter again
+
 ---
 
 ## 🧠 Hints
